@@ -133,7 +133,7 @@ def insert_rows(df, table_name):
     connection.close()
 
 # -----------------------------
-# ROUTES
+# ROUTES TO FILE/FOLDER
 # -----------------------------
 @app.route("/")
 def home():
